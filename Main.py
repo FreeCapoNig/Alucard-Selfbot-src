@@ -143,13 +143,13 @@ def startprint():
                         ░  ░    ░  ░   ░     ░ ░            ░  ░   ░        ░
                         
                         
-                       {Fore.CYAN}Alucard {SELFBOT.__version__} | {Fore.GREEN}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.GREEN}{Alucard.user.id}   
-                       {Fore.CYAN}Privnote Sniper | {Fore.GREEN}{privnote}
-                       {Fore.CYAN}Nitro Sniper | {Fore.GREEN}{nitro}
-                       {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
-                       {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
-                       {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-                       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}coats.#4321
+                       {Fore.WHITE}Take No Lz {SELFBOT.__version__} | {Fore.GREEN}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.WHITE}| ID: {Fore.GREEN}{Alucard.user.id}   
+                       {Fore.WHITE}Privnote Sniper | {Fore.GREEN}{privnote}
+                       {Fore.WHITE}Nitro Sniper | {Fore.GREEN}{nitro}
+                       {Fore.WHITE}Giveaway Sniper | {Fore.GREEN}{giveaway}
+                       {Fore.WHITE}SlotBot Sniper | {Fore.GREEN}{slotbot}
+                       {Fore.WHITE}Prefix: {Fore.GREEN}{prefix}
+                       {Fore.WHITE}Creator(open-source on github): {Fore.GREEN}sand.#6969
     '''+Fore.RESET)
 
 def Clear():
@@ -1220,7 +1220,7 @@ async def copy(ctx): # b'\xfc'
         pass
 
 @Alucard.command()
-async def destroy(ctx): # b'\xfc'
+async def rape(ctx): # b'\xfc'
     await ctx.message.delete()
     for channel in list(ctx.guild.channels):
         try:
@@ -1239,7 +1239,7 @@ async def destroy(ctx): # b'\xfc'
             pass
     try:
         await ctx.guild.edit(
-            name=RandString(),
+            name=RandString(MERXED BY ELITE),
             description="https://alucard.wtf",
             reason="https://alucard-selfbot.github.io",
             icon=None,
@@ -1248,9 +1248,9 @@ async def destroy(ctx): # b'\xfc'
     except:
         pass        
     for _i in range(250):
-        await ctx.guild.create_text_channel(name=RandString())
+        await ctx.guild.create_text_channel(name=ELITE IS UR DAD())
     for _i in range(250):
-        await ctx.guild.create_role(name=RandString(), color=RandomColor())
+        await ctx.guild.create_role(name=ELITEISGOD(), color=RandomColor())
 
 @Alucard.command()
 async def dmall(ctx, *, message): # b'\xfc'
